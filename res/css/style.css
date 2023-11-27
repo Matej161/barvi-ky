@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  background-image: url(https://i.pinimg.com/originals/71/9e/80/719e80760999b4c355a723224120eb07.png);
+  user-select: none;
+}
+
+#changeColorButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#changeColorButton:hover {
+  background-color: cyan;
+  border: black solid 2px;
+}
+
+#autoChangeColorButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#stopAutoChangeColorButton {
+  background-color: red;
+  color: white;
+  padding: 5px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#colorChangingDiv {
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 500px;
+  height: 350px;
+  border: 1px solid #000;
+  transition: 600ms;
+  background-color: red;
+}
+
+#clickCounter {
+  position: fixed;
+  bottom: 0;
+  font-size: 20px;
+  color: white;
+}
